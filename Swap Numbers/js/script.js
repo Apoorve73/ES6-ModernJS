@@ -1,8 +1,10 @@
-let a =5
+let a = 5
 let b = 6
 console.log(`a and b before swaps
 a = ${a}
 b = ${b}`)
+
+// [a,b] = [b,a];
 a = a+b
 b = a-b
 a = a-b
